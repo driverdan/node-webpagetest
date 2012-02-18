@@ -11,7 +11,7 @@ var apiHost = "www.webpagetest.org";
 var urlMap = {
   tests: '/xmlResult/',
   'tests/run': '/runtest.php?f=xml',
-  'tests/check': '/testStatus.php?f=xml',
+  'tests/status': '/testStatus.php?f=xml',
   locations: '/getLocations.php?f=xml'
 };
 
